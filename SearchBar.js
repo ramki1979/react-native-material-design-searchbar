@@ -8,7 +8,7 @@ import {
   ActivityIndicator,
   Text,
 } from 'react-native';
-import Icon from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 import dismissKeyboard from 'react-native/Libraries/Utilities/dismissKeyboard';
 
 const styles = StyleSheet.create({
@@ -58,9 +58,9 @@ export default class SearchBar extends React.Component {
     onEndEditing: () => {},
     onSubmitEditing: () => {},
     inputStyle: {},
-    iconCloseName: 'md-close',
-    iconSearchName: 'md-search',
-    iconBackName: 'md-arrow-back',
+    iconCloseName: 'close',
+    iconSearchName: 'search',
+    iconBackName: 'arrow-back',
     placeholder: 'Search...',
     returnKeyType: 'search',
     padding: 5,
